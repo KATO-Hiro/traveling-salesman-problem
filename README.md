@@ -2,6 +2,6 @@
 Transcription for learning.
 
 # Future task
-+ Add a Route class.
++ Add functions to a Route class.
 + Refactoring methods.
 + Extend to replace Algorithms.
