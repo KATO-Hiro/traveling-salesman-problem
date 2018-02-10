@@ -6,7 +6,9 @@ class TestRoute(object):
 
     def test_add(self):
         route = Route()
-        point = route.add_point(name='1', x=3, y=5)
+        point = route.add_point(name='1')
+        point.x = 3
+        point.y = 5
 
         assert len(route._points) == 1
         assert 3 == point.x
